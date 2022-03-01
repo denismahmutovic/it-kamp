@@ -1,0 +1,106 @@
+.baner{
+    margin: 100px auto;
+    border: solid red 3px;
+    border-radius: 15px;
+    width: 300px;
+    text-transform: uppercase;
+    height: 300x;
+    background-color: #F4F6F7;
+    float: right;
+    margin: auto;
+
+}
+.slika{
+    width: 300px;
+}
+h1{
+    color: #2C3E50;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    padding: 20px;
+    color: #de0000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+  padding: 20px;
+  font-family: fantasy;
+}
+div:hover{
+    background: #F9E79F    
+}
+.dugme{
+    padding: 10px;
+    
+}
+.header{
+    border: solid red 3px;
+    width: 300px;
+    height: 300pxs
+    border-radius: 15px;
+    text-transform: uppercase;
+    margin: 100px auto;
+    float: left;
+    margin: auto;
+    background-color: #F4F6F7;
+   
+  
+}
+
+.proba{
+    /* width: 300px;
+    margin: auto; */
+}
+.header p{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2471A3;
+}
+.header h2{
+    padding: 30px;
+    font-family:cursive;
+    color: red;
+    
+}
+.treci-red{
+    width: 300px;
+    border: solid red 3px;
+    border-radius: 15px;
+    margin: 100px auto;
+    text-transform: uppercase;
+    background-color: #F4F6F7;
+    width: 300px;
+    margin: auto;
+    
+    
+}
+.slikatri{
+    width: 300px;
+    
+    margin: auto;
+}
+.treci-red p{
+    font-family:fantasy;
+    padding-right: 2 ;
+    font-size: large;
+    color: #2471A3;
+    width: 300px;
+    
+}
+.treci-red h1 {
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.treci-red h2{
+    color: #9B59B6;
+    padding-left: 30px;
+    display: block;
+    
+}
+.dj{
+    width: 300px;
+    margin: auto;
+}
+
+

@@ -14,7 +14,7 @@
     /* background-repeat: no-repeat; */
     
     background-color:#8ed1fc;
-    background-image: url(/backgraund.jpg);
+    background-image: url(/domaci2/backgraund.jpg)
     
     
 }
@@ -144,7 +144,4 @@ button{
     color: red;
     width: 60px;
 }
-div:hover{
-    background-color:  black;   
-    transition: .75s;}
 

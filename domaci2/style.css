@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .hotel{ 
     margin: 100px auto;
-    border: solid #363636; 3px;
+    border: solid #363636;
     border-top-left-radius: 50px 20px;
     border-top-right-radius: 50px 20px;
     width: 300px;
@@ -14,9 +14,12 @@
     /* background-repeat: no-repeat; */
     
     background-color:#8ed1fc;
-    background-image: url(/domaci2/backgraund.jpg);
+    background-image: url(/backgraund.jpg);
     
     
+}
+.hotel{
+    /* margin 10px 20px; */
 }
 #zveda,h3{
     color: #ff0000;
@@ -141,5 +144,7 @@ button{
     color: red;
     width: 60px;
 }
-
+div:hover{
+    background-color:  black;   
+    transition: .75s;}
 

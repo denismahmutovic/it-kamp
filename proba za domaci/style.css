@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Merriweather&display=swap');
+.kartica{
+    width: 300px;
+    height: 550px;
+    margin: 100px auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: rgb(56, 56, 245);
+}
+img{
+    height: 190px;
+    width: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;}
+
+.kartica:hover{
+    background: chocolate;
+    transition: .55s    ;
+}
+.opis{
+    margin: 10px 20px;
+}
+.opis h3{
+    text-align: right;
+    font-size: 30px;}
+    a{
+        font-size: 25px;
+    }
+    .b{
+        font-size: 25px;
+    }
+    .c{
+        font-size: 25px;
+    }
+    .d{
+        font-size: 25px;

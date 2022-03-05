@@ -1,0 +1,24 @@
+.ikonice{
+    margin: 100px auto;
+    border: solid 3px grey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 300px;
+    height: 500px;
+
+}
+img{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+.prva-ikonica{
+    padding: 20px;
+    font-size: medium;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+}

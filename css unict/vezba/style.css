@@ -1,0 +1,31 @@
+html{
+    font-size: 10px;
+}
+.par{
+    font-size: 2em;
+    /* 1em =16px x 1 =16px
+    2em =16 x2 =32px */
+}
+.glavni{
+  background-color: orangered;
+  font-size: 10px;
+}
+.a{
+    color: white;
+    font: 2em;
+    /* 2em =10px *2=20px; */
+}
+.b{
+    color: red;
+    background-color: wheat;
+    font-size: 4rem;
+
+
+    /* 1rem= osnovna vrednost def(16) * broj (1)=16 */
+    /* rem *40x10=40px  jer je html*/
+}
+.dva{
+    background: red;
+    height: 50vh;
+    width: 50vw;
+}

@@ -1,0 +1,18 @@
+.block{
+    background: blue;
+    color: white;
+}
+.inline{
+    background: red;
+    color: white;
+    
+}
+.a{
+    background-color: blue;
+}
+.deny h1{
+    background: red;
+}
+h1{
+    background: red;
+}

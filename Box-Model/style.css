@@ -1,0 +1,25 @@
+*{
+    margin: 0   ;
+    /* padding: 0;
+    box-sizing: border-box;
+    color: white    ; */
+}
+h1{
+    background: red;
+    /* padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px; */
+    /* margin: 3rem 6rem 9rem 12rem; */
+    margin-bottom: 30px;
+    border: solid 3px blue;
+
+}
+p{
+    background: blue;
+    color: white;
+    /* padding: 25px 25px; */
+    /* padding: 3px 6px 9px 12px; */
+    border: black solid 20px;
+    border-radius: 15px;
+    }

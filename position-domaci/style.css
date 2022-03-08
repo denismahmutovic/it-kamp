@@ -1,0 +1,67 @@
+.glavni{
+    margin: 100px auto;
+    border: solid 2px red;
+    width: 400px;
+    height: 500px;
+    position:relative;  
+    top: 200px;
+    bottom: 200px;
+    background-color: #74c365;
+    
+    
+}
+.a{ position: absolute;
+    border-radius: 50px;
+    background: blue;
+    width: 50px;
+    height: 50px;
+    margin: -20px;
+}
+.b{
+    position: absolute;
+    width: 50px;
+    border-radius: 50px;
+    background: orangered;
+    width: 50px;
+    height: 50px;
+    left: 789%;
+}
+.c {
+    position: absolute;
+    width: 50px;
+    border-radius: 50px;
+    background: yellow;
+    width: 50px;
+    height: 50px;
+    top: 250px;
+}
+.d{
+    position: absolute;
+    width: 50px;
+    border-radius: 50px;
+    background: #7df9ff;
+    width: 50px;
+    height: 50px;
+    top: 230px;
+}
+.i{
+    
+    position: absolute;
+    width: 50px;
+    border-radius: 50px;
+    background: orange;
+    width: 50px;
+    height: 50px;
+    right: 400px;
+}
+.f{ position: absolute;
+    width: 50px;
+    border-radius: 50px;
+    background: grey;
+    width: 50px;
+    height: 50px;
+    bottom: 220px;  
+    
+
+}
+

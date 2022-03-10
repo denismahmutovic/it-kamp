@@ -1,52 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .glavni{
     width: 100%;
-    height: 10vh;
+    height: 100vh;
+    
     
 }
-.nav{
+.navbar{
     width: 100%;
     height: 10vh;
-    background-color: aqua;
-
+    background: #262626;
+    color: white;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    padding: 10px;
 }
-.main{
+.hero{
     width: 100%;
     height: 40vh;
-    background-color: red;
-    display: flex;
-}
-.main-sadrzaj{
-    width: 50%;
-}
-.main-slika{
+    background:#faebd7;
     position: relative;
-    margin-left: 50px;
+    
 }
-span{
-    color: gold;
+.podnaslov{
+    padding: 10px;
 }
-.badge{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: blue;
-    border-radius: 50%;
-     top: -30px;
-    right: -50px;
+.podnaslov h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-.badge p{
-    color: white;
-    margin-left: 30px;
-    font-size: 40px;
-    margin-top: 3px;
+.podnaslov h4{
+    font-family: cursive;
+    font-size: 20px;
+}
+.ss{
+   float: right;
+   position: absolute;
+   right: 13px;
+   top: 30px;
+   width: 350px;
+   height: 210px
 
 }
-.druga{
+.krug{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    top: 1px;
+    right: 20px;
+}
+.sale{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: small;
+    color: white;
+}
+.kocke{
+    display: inline-block;
+
     width: 100%;
     height: 30vh;
-    background-color: brown;
+    background: #c6e2ff;
+    position: relative;
+    
 }
-.kocka{
-    width: 100%;
+.a{ display: inline-block;
+    width: 165px;
+    height: 165px;
+    border: solid red 3px;
+    margin: 0 auto;
+    
+}
+.s-1{
+    width: 160px;
+    height: 160px;
+    
+}
+.b{ 
+    display: inline-block;
+    width: 165px;
+    height: 165px;
+    border: solid red 3px;
+    margin: 0 auto;
+    
+}
+.s-2{
+    
+    width: 160px;
+    height: 160px;
+}
+.c{
+    display: inline-block;
+    width: 165px;
+    height: 165px;
+    border: solid red 3px;
+    margin: 0 auto;
+    
+}
+.s-3{
+   width: 160px;
+   height: 160px;
 
+}
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #262626;
+    position: relative;
+}
+.footer-desno{
+    color: white;
+    position: absolute;
+    right: 30px;
+    font-size: 18px;
 }

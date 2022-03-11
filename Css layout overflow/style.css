@@ -1,0 +1,31 @@
+/* div{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    overflow: hidden;
+
+}
+h1{
+    font-size: 40px;
+}
+.drugi{
+    width: 100px;
+    height: 100px;
+    background-color: blue; */
+
+
+.ab{
+    border: 3px solid red;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    float: left;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit:contain;
+}
+

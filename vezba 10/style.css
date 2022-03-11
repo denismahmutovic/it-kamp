@@ -17,6 +17,8 @@
     text-decoration: underline;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     padding: 10px;
+
+    
 }
 .hero{
     width: 100%;
@@ -29,7 +31,8 @@
     padding: 10px;
 }
 .podnaslov h2{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 .podnaslov h4{
     font-family: cursive;
@@ -41,7 +44,7 @@
    right: 13px;
    top: 30px;
    width: 350px;
-   height: 210px
+   height: 210px;
 
 }
 .krug{
@@ -61,19 +64,24 @@
     color: white;
 }
 .kocke{
-    display: inline-block;
-
+    display: inline-flex;
     width: 100%;
     height: 30vh;
     background: #c6e2ff;
     position: relative;
+    margin: 0 auto;
+    
+    
+    
     
 }
-.a{ display: inline-block;
+.a{ display: inline-flex;
+    position: absolute;
     width: 165px;
     height: 165px;
     border: solid red 3px;
-    margin: 0 auto;
+    left: 10px;
+    
     
 }
 .s-1{
@@ -82,24 +90,30 @@
     
 }
 .b{ 
-    display: inline-block;
+    display: inline-flex;   
     width: 165px;
     height: 165px;
     border: solid red 3px;
-    margin: 0 auto;
+    position: absolute;
+    left: 80vh;
+    
+    
     
 }
 .s-2{
     
     width: 160px;
     height: 160px;
+    
 }
 .c{
-    display: inline-block;
+    display: inline-flex;
     width: 165px;
     height: 165px;
     border: solid red 3px;
-    margin: 0 auto;
+    position: absolute;
+    left: 450px;
+    
     
 }
 .s-3{
@@ -109,7 +123,7 @@
 }
 .footer{
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     background-color: #262626;
     position: relative;
 }

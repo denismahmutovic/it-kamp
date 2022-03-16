@@ -5,6 +5,8 @@
 }
 html{
     background-image: url(./backgraund.jpg);
+    transition: .5s;
+    animation: slidedown 4s;
 }
 .glavni{
     width: 100%;
@@ -16,8 +18,15 @@ html{
     display: flex;
     justify-content:space-around;
     align-items:center;
-    ;
+    font: inherit;
+    position: sticky;
+    boo
     
+    
+    
+}
+img{ transition: .5s;
+    animation: slidedown 2s;
     
 }
 
@@ -112,7 +121,7 @@ span{
 #prva::before {
     content: "";
     position: absolute;
-    background: #cbe0fb;
+    background: yellow;
     right: 0;
     left: 0;
     bottom: 0;

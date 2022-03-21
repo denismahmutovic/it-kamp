@@ -12,6 +12,9 @@
     height: 100vh;
     
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .nav{
     width: 100%;
     height: 27vh;
@@ -19,12 +22,9 @@
     display: flex;
     justify-content: space-around;
     position: relative;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight:30px;
-
-
-    
     align-items: center;
     list-style: none;
     padding-right: 200px;
@@ -113,7 +113,8 @@ a:hover{
 }
 .music{
     color: #fc0254;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family: 'Montserrat', sans-serif;
+    
     
     
 }
@@ -200,7 +201,7 @@ a:hover{
     text-align: center;
     position: absolute;
     left: 20cm;
-    top: ;
+    
 }
 .hero-three{
     width: 100%;
@@ -265,6 +266,171 @@ a:hover{
 .hero-three h3{
     color: white;
     font-size: 32px;
-    \di
+   
+}
+.jedan{
+    position: absolute;
+    left: 2cm;
+    bottom: 4cm;
+    z-index: 1;
+    font-size: 24px;
+    
+}
+.hero-three p{
+    color: #fff;
+    font-weight: 400;
+    opacity: .6;
+    position: absolute;
+    bottom: 1.6cm;
+    left: 2cm;
+
+
+}
+
+
+.pr{
+    color: #fff;
+    font-weight: 400;
+    opacity: .6;
+    position: absolute;
+    bottom: 2cm;
+    font-size: 15px;
+}
+.pr2{
+    color: #fff;
+    font-weight: 400;
+    opacity: .6;
+    position: absolute;
+    bottom: 2cm;
+    right: 2cm;
+    font-size: 15px;
+
+}
+.pr3{
+    color: #fff;
+    font-weight: 400;
+    opacity: .6;
+    position: absolute;
+    bottom: 2cm;
+    left: 2cm;
+    font-size: 15px;
+
+}
+    
+.druga{
+    olor: #fff;
+    font-weight: 400;
+    opacity: .6;
+    position: absolute;
+    bottom: 1.6cm;
+    
+
+}
+.dva{
+    position: absolute;
+    bottom: 4cm;
+    z-index: 1;
+    font-size: 24px;
+    
+}
+.tri{
+        position: absolute;
+        bottom: 4cm;
+        z-index: 1;
+        font-size: 24px;
+        right: 3cm;
+    
+
+}
+.hero-sekcion3 {
+    height: 80vh;
+    background: white;
+    position: relative;
+    
+}
+.hero-sekcion3 h1{
+    font-size: 60px;
+    color: #0a183d;
+    font-weight: 600;
+    line-height: 1;
+    padding: 30px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: start;
+}
+.hero-sekcion3 p{
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    left: 20cm;
+    bottom: 9cm;
+
+}
+.Soul{
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+    border: solid black;
+    background: black;
+    background-image: url(./x1.jpg.pagespeed.ic.TX12NoLeZf.webp);
+    margin: 0 0 0 20px;
+    position: absolute;
+    left: 1cm;
+}
+.live{
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+    background-image: url(./x2.jpg.pagespeed.ic.pMEZRK48O1.webp);
+    position: absolute;
+    left: 8cm;
+}
+.dj{
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+    background-image: url(./x3.jpg.pagespeed.ic.AQHPO42aaK.webp);
+    position: absolute;
+    left: 16cm;
+}
+.live4{
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+    background-image: url(./x4.jpg.pagespeed.ic.R5UVGSg83F.webp);
+    position: absolute;
+    left: 24cm;
+
+}
+.hero-sekcion3 h4{
+   position: absolute;
+   top: 7cm;
+   font-size: 20px;
+   left: 2cm;
+   
+}
+#live{
+    position: absolute;
+   top: 7cm;
+   font-size: 20px;
+   left:10cm;
+   
+   
+
+}
+#dj{
+    position: absolute;
+   top: 7cm;
+   font-size: 20px;
+   left:18.5cm;
+   
+
+}
+#streems{
+    sition: absolute;
+   top: 7cm;
+   font-size: 20px;
+   left:27cm;
+
 }
 

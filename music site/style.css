@@ -85,6 +85,8 @@ a{
     background: #0a183d;
     display: flex;
     
+    
+    
 }
 .music{
     flex-direction: column;
@@ -92,6 +94,9 @@ a{
     font-size: 40px;
     padding-top: 30px;
     padding: 40px;
+    transition: .5s;
+    animation: slidedown 4s
+
 
    
 }
@@ -101,17 +106,23 @@ a{
     justify-content: flex-start;
     padding-top: 20px;
     font-size: 15px;
+    transition: .5s;
+    animation: slidedown 4s;
 
 }
 #music{
     color: #fc0254;
     font-size: 70px;
+    transition: .5s;
+    animation: slidedown 4s;
 
 }
 .hero-slika{
     display: flex;
     justify-content:right;
     padding: 30px;
+    transition: .5s;
+    animation: slidedown 4s;
     
     
 }
@@ -143,27 +154,32 @@ a{
 }
 .hero-two{
     width: 100%;
-    height:60vh;
-    background: white'
+    height:70vh;
+    background: white;
     
     
 }
 .cotainer{
     display: flex;
-    padding: 50px;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 50px;
     
     
 }
 .cotainer h1{
     display: flex;
-    justify-content:flex-end;
+    justify-content:flex-start;
     align-items: center;
     
-    font-size: 50px;
+    font-size: 60px;
 }
 .cotainer p{
     color: #4c4c4c;
-    padding-left: 40px;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 30px;
+   
     
 }
 
@@ -182,8 +198,7 @@ a{
     color: #fff;
     line-height: normal;
     cursor: pointer;
-    text-align: center;
-    margin: 50px;
+    margin-left: 20cm;
     
     
    
@@ -223,8 +238,8 @@ a{
     font-size: 50px;
     color: white;
     display: flex;
-   justify-content: flex-start;
-   padding: 3px;
+    justify-content: center;
+    padding: 20px;
 }
 .pod{
     display: flex;
@@ -254,6 +269,11 @@ a{
     
     
     
+    
+}
+.hero-four .hero-container{
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -265,19 +285,18 @@ a{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    justify-content: space-between;
 }
 .hero-four p{
-    
-    
+    margin-top: 80px;
     color: #6a7080;
-    display: flex;
-    justify-content:flex-end;
-    align-items: center;
-    margin-top: 20px;
+    padding: 20px;
+    
      }
 .slike{
    display: flex;
    justify-content: space-around;
+   
     
 
    
@@ -302,7 +321,7 @@ a{
     border-radius: 50px;
     width: 250px;
     height: 250px;
-    background-image: url(./x3.jpg.pagespeed.ic.AQHPO42aaK.webp);
+    /* background-image: url(./dj.webp); */
     
 }
 .streems{
@@ -385,6 +404,7 @@ a{
     height: 400px;
     margin: 30px;
     margin-left: 5cm;
+    display: flex;
     /* background-image: url(./yes.webp); */
 }
 .yes{
@@ -392,6 +412,11 @@ a{
     padding: 30px;
     font-size: 20px;
     padding: 29px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
     
     
 
@@ -432,7 +457,7 @@ a{
     border-radius: 50%;
 }
 .zvucnik{
-    background-image: url(/zvucnik.webp);
+    background-image: url(./dj.webp);
     width: 190px;
     height: 190px;
     border-radius: 50%;
@@ -469,46 +494,146 @@ a{
     background: #0a183d;
     width: 100%;
     height: 50vh;
-}
-.footer-logo{
-    padding: 70px;
-}
-.footer-logo h4{
-    color: #505565;
-    font-size: 14px;
     display: flex;
-    justify-content: start;
-    align-items: center;
 }
-.abaut{
+.footer-container{
+   padding-top: 50px;
+   
+   }
+   .footer-container p{
+       color: #6a7080;
+       padding-left: 20px;
+       
+   }
+.foooter-logo{
+    padding: 20px;
+    
+}
+.footer-nav{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   padding: 2cm;
+    
+}
+.footer-nav p{
+    color: #6a7080;
+}
+.footer-nav{
     color: white;
+}
+.footer-nav-two{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    justify-content: right;
-    
-    
-    
+    flex-direction: column;
+    padding: 2cm;
     
 
+}
+.footer-nav-two p{
+    color: #6a7080;
     
 }
-.abaut h3{
-    
-    padding: 10px;
-    /* font-weight: 600;
-    line-height: 1; */
-    bottom:2px;
-    margin-top:-3cm;
-    padding: 20px;
-    
-}
-.abautp{
+.footer-nav-two h3{
     color: white;
-    display: flex;
-    /* justify-content: space-around; */
-    justify-content: right;
-    align-items: center;
-    padding: 20px;
 }
+.footer-nav-three{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2cm;
+}
+.footer-nav-three p{
+    color: #6a7080;
+}
+.footer-nav-three h3{
+    color: white;
+}
+
+
+
+
+
+ @media only screen and (max-width: 767px){
+    .hero-slika{
+        display: none;
+    }
+    .hero{
+        width: 100%;
+    }
+    #create{
+        display: none;
+    }
+}
+/*  
+     /* .hero {
+        width: 390%;
+        height: 100vh;
+        font-size: 200px;
+     }
+     .music{
+         width: 100%;
+     }
+    .hero-slika{
+        display: none; */
+    /* }
+    .nav{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .hero{
+        font-size: 10px;
+    }
+    #now{
+        flex-direction: column;
+    }
+    .cotainer{
+        display: flex;
+        flex-direction: column;
+    }
+    #dugme3{
+        display: none;
+    }
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .slike{
+        display: flex;
+        flex-direction: column;
+    }
+    .djdeny{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-four{
+        width: 100%;
+        height: 220vh;
     
+    } */
+
+    
+    
+ } */ */
+        
+
+           
+        
+    
+ @keyframes slidedown{
+    from{
+        transform: translateY(200px);
+        opacity: 0;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+
+    }
+}

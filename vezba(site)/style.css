@@ -205,3 +205,50 @@ p{
     height: 200px;
 
 }
+.hero{
+    width: 100%;
+}
+.nav{
+    width:100%;
+}
+@media screen and (max-width: 1200px) {
+    .sponzori{
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: px;
+        margin: 100px;
+    
+
+}
+.nav{
+    width: 100%;
+}
+.hero-section{
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    margin: 100px;
+    
+}
+.container-two{
+    flex-direction: column;
+}
+.container-three{
+    flex-direction: column;
+   
+}
+#dugme{
+    margin-left: 100px;
+}
+.body{
+    background: #1ac1d6;
+}
+@media screen and (max-width: 700px){
+    .contatiner img{
+        
+    }
+
+}
+    
+
+    

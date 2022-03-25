@@ -554,17 +554,19 @@ a{
 
 
 
- @media only screen and (max-width: 767px){
-    .hero-slika{
-        display: none;
-    }
-    .hero{
-        width: 100%;
-    }
-    #create{
-        display: none;
-    }
-}
+ @media only screen and (max-width: 1167px){
+     .hero-section .denis{
+         display: flex;
+         flex-direction: column;
+     }
+ }
+    
+
+    
+
+
+    
+
 /*  
      /* .hero {
         width: 390%;

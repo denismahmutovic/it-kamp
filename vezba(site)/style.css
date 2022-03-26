@@ -88,6 +88,10 @@ h3{
 p{
     color: #c0c0c0;
 }
+.nav h3{
+    color: white;
+    font-weight: 900;
+}
 .c{
     padding: 20px;
     background: black;

@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Roboto Mono', monospace;;
+}
+.glavni{
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/download.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    padding-right: 50px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.centar{
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.centar h4{
+    color: white;
+}
+.centar h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 20px;
+}
+.click{
+    display: flex;
+    padding: 20px 30px;
+    align-items: center;
+
+}
+.dugme1{
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: white;
+    color: black;
+
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 900;
+    margin: 20px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.dugme2{
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #fb3434;
+    color: white;
+
+
+    padding-top: 20px;
+   
+    font-weight: 900;
+    
+}
+.hero-two{
+    width: 100%;
+    height: 100vh;
+}
+.hero-container{
+    text-align: center;
+    padding-top: 50px;
+}
+.hero-container h4{
+    color: #000080;
+    font-size: 20px;
+}
+.hero-container h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.kocke{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+.kocke img{
+    border-radius: 50%;
+}
+.kocke h3{
+    color: black;
+    font-size: 15px;
+    
+}
+.kocke h5{
+    padding-top: 10px;
+    color: #6c6f73;
+    font-family: inherit;
+    font-size: inherit;
+}
+.hero-container-three{
+    display: flex;
+    
+}
+.hero-container-three img{
+    width: 300px;
+    padding: 29PX;
+}
+.hero-container-three h3{
+    justify-content: right;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.podela{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  
+
+}
+.podela h3{
+    color: #000080;
+    font-weight: bold;
+}
+.podela h2{
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.podela p{
+    padding-top: 20px;
+}
+.dugme3{
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #000080;
+    color: white;
+    margin-top: 10px;
+
+}
+.hero-for{
+    width: 100%;
+    height: 90vh;
+}
+.container-for{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 3px 15px 0 rgb(0 0 0 / 2%);
+    background-color: #c4ebf5;
+    text-align: center;
+    margin-top: 50px;
+}
+.naslov-for{
+    text-align: center;
+}
+.naslov-for h3{
+    color: #000080;
+}
+.naslov-for h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.d{
+    line-height: 26px;
+    
+}
+.denis{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-right: 50px;
+    align-items: center;
+    
+}
+.denis img{
+    border-radius: 50%;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 750px) {
+    .container{
+        flex-direction: column;
+    }
+   
+    .nav{
+    width: 100%;
+    height: 120vh;
+    background-image: url(/download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .kocke {
+   flex-direction: column;
+   margin-left: 74px;
+   margin-top: 29px 
+    
+
+/* }  */
+.centar h1{
+    padding: 20px;
+}
+.hero-container-three {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+
+}
+
+.hero-container-three img {
+    width: 357px;
+}
+.container-for{
+    flex-direction: column;
+    margin: 0px auto;
+    width: 69%;
+}
+.denis{
+    flex-direction: column;
+    padding-left: 109px;
+}

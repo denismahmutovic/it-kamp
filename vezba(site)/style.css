@@ -13,6 +13,7 @@
     align-items: center;
     padding: 30px;
     background: #1ac1d6;
+    background-image: url(./);
 }
 a{
     text-decoration: none;
@@ -189,7 +190,7 @@ p{
     border-radius: 60%;
 }
 .u{
-    b
+    
    
     border-radius: 15px;
     
@@ -247,12 +248,11 @@ p{
 .body{
     background: #1ac1d6;
 }
-@media screen and (max-width: 700px){
+/* @media screen and (max-width: 700px){
     .contatiner img{
         
-    }
+    } */
 
 }
     
 
-    

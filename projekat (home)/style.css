@@ -141,9 +141,12 @@ button{
 
 .hero-for-container{
     display: flex;
+    overflow: hidden;
 }
 .hero-for{
     margin-top: 50px;
+   
+    
 }
 .hero-for h3{
     font-size: 30px;
